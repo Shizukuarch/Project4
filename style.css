@@ -50,8 +50,14 @@ h1 {
   animation: moveIn 3s;
 }
 
-.tablediv
-.tablemove
+#foxtable {
+  overflow: hidden;
+}
+
+#foxtable tr {
+  position: relative;
+  animation: moveIn 3s;
+}
 
 @keyframes moveIn {
   from {
