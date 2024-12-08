@@ -61,9 +61,11 @@ h1 {
 
 @keyframes moveIn {
   from {
+    opacity: 0.0;
     left: -100%;
   }
   to {
+    opacity: 1.0;
     left: 0;
   }
 }
