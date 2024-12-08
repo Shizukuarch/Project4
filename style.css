@@ -41,6 +41,24 @@ h1 {
   border-radius: 6px;
 }
 
+.fox {
+  overflow: hidden;
+}
+
+.move {
+  position: relative;
+  animation: moveIn 3s;
+}
+
+@keyframes moveIn {
+  from {
+    left: -100%;
+  }
+  to {
+    left: 0;
+  }
+}
+
 #onpage a {
   color: darkblue;
   background-color: aliceblue;
