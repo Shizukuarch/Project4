@@ -50,6 +50,9 @@ h1 {
   animation: moveIn 3s;
 }
 
+.tablediv
+.tablemove
+
 @keyframes moveIn {
   from {
     left: -100%;
